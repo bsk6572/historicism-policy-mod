@@ -73,5 +73,85 @@
                 ]
             }
         ]
-    }
+    },
+   {
+        "name": "Nobility",
+        "era": "Classical era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+                     "[+2 Culture] from every [Palace]",
+                     "[+2 Culture] from every [Walls]",
+                     "[+2 Culture] from every [Castle]",
+                    
+        ],
+        "policies": [
+            {
+                "name": "Divine Rule",
+                "uniques": [
+                    "[+3 Science] from every [National College]",
+                    "[+3 Happiness] from every [Circus Maximus]",
+                    "[+3 Faith] from every [Grand Temple]",
+                    "[+3 Gold] from every [National Treasury]",
+                    "[+3 Production] from every [Iron Works]",
+                    "[+3 Culture] from every [Hermitage]",
+                ],
+                "row": 1,
+                "column": 2
+            },
+            {
+                "name": "Feudalism",
+                "uniques": [
+                    "[+1 Food] from every [Farm] <in [[Fresh Water]] tiles>",
+                ],
+                "row": 1,
+                "column": 4
+            },
+            {
+                "name": "Knightly Order",
+                "uniques": [
+		           "[Mounted] units gain the [Knightly Order] promotion",
+                   "[+1] Movement <for [Mounted] units>"
+                ],
+                "requires": ["Feudalism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Diplomatic Marriage",
+                "uniques": [
+                    "May buy items in puppet cities",
+                    "[+50]% [Food] from City-States","[+50]% [Culture] from City-States","[+50]% [Faith] from City-States","Military Units gifted from City-States start with [+15] XP"
+                ],
+                "requires": ["Divine Rule","Knightly Order"],
+                "row": 3,
+                "column": 2
+            },
+            {
+                "name": "Imperialism",
+                "uniques": [
+                    "Cities are razed [2] times as fast",
+                    "[+1] Sight <for [{Military} {Land}] units>"
+                ],
+                "requires": ["Knightly Order"],
+                "row": 3,
+                "column": 4
+            },
+            {
+                "name": "Nobility Complete",
+                "uniques": [
+                     "[+1 Happiness] from every [Palace]",
+                     "[+1 Happiness] from every [Walls]",
+                     "[+1 Happiness] from every [Castle]",
+                     "[+1 Happiness] from every [Arsenal]",
+                     "[+1 Happiness] from every [Military Base]",
+                ]
+            }
+                ]
+	},
 ]
