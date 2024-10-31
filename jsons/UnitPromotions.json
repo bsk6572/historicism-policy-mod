@@ -1,0 +1,6 @@
+[
+  {
+		"name": "Knightly Order",
+		"uniques": ["Religious Unit", "Can Spread Religion <for [4] movement> <[1] times>", "All adjacent units heal [+10] HP when healing"]
+	},
+]
