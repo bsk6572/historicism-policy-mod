@@ -97,12 +97,12 @@
             {
                 "name": "Divine Rule",
                 "uniques": [
-                    "[+3 Science] from every [National College]",
-                    "[+3 Happiness] from every [Circus Maximus]",
-                    "[+3 Faith] from every [Grand Temple]",
-                    "[+3 Gold] from every [National Treasury]",
-                    "[+3 Production] from every [Iron Works]",
-                    "[+3 Culture] from every [Hermitage]",
+                    "[+5 Science] from every [National College]",
+                    "[+5 Happiness] from every [Circus Maximus]",
+                    "[+5 Faith] from every [Grand Temple]",
+                    "[+5 Gold] from every [National Treasury]",
+                    "[+5 Production] from every [Iron Works]",
+                    "[+5 Culture] from every [Hermitage]",
                 ],
                 "row": 1,
                 "column": 2
@@ -148,11 +148,11 @@
             {
                 "name": "Nobility Complete",
                 "uniques": [
-                     "[+1 Happiness] from every [Palace]",
-                     "[+1 Happiness] from every [Walls]",
-                     "[+1 Happiness] from every [Castle]",
-                     "[+1 Happiness] from every [Arsenal]",
-                     "[+1 Happiness] from every [Military Base]",
+                     "[+2 Happiness] from every [Palace]",
+                     "[+2 Happiness] from every [Walls]",
+                     "[+2 Happiness] from every [Castle]",
+                     "[+2 Happiness] from every [Arsenal]",
+                     "[+2 Happiness] from every [Military Base]",
                 ]
             }
                 ]
